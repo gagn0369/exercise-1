@@ -31,11 +31,16 @@ h1{
 	margin-left: 1em;
 }
 
-.icons{
-	position: relative;
-	text-align: center;
+.icon{
+	font-size: 4em;
+	color: white;
 }
 
+
+.icon:hover .icon-shell:before {
+    content: '\e801';
+    transition: all linear 0.25s;
+}
 
 /*ICON ANIMATION*/
 
