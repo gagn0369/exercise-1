@@ -45,9 +45,6 @@ h1{
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	font-size: 5em;
-	padding: 0.4em;
-	margin: 0.2em;
 
 	-webkit-animation: icon-fade 1.5s ease-out;
 	-moz-animation: icon-fade 1.5s ease-out;
@@ -55,14 +52,22 @@ h1{
 	animation: icon-fade 1.5s ease-out;
 }
 
-.icon-heart, .icon-sun, .icon-camera{
-	color: white;
-}
-
 .icon-shell, .icon-anchor, .icon-plane{
 	color: #0e4051;
 	border: solid 8px #0e4051;
+	font-size: 5em;
+	padding: 0.4em;
+	margin: 0.2em;
 }
+
+
+.icon-heart, .icon-sun, .icon-camera{
+	color: white;
+	font-size: 4em;
+	padding: 0.6em;
+	margin: 0.5em;
+}
+
 
 /*ICON ANIMATION*/
 
