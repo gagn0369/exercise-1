@@ -11,14 +11,138 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+
+  background: url(../sea.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
+h1{
+	font-family: 'Cedarville Cursive', cursive;
+	color: white;
+	font-size: 2em;
+	margin-left: 1em;
+}
+
+.icons{
+	position: relative;
+	text-align: center;
+	margin-top: 11em;
+}
+
 .icon-all{
+	position: relative;
 	text-decoration: none;
-	color: black;
 	font-size: 4em;
+	padding: 0.5em;
+	margin: 0.2em;
+
+	-webkit-animation: icon-fade 1.5s ease-out;
+	-moz-animation: icon-fade 1.5s ease-out;
+	-o-animation: icon-fade 1.5s ease-out;
+	animation: icon-fade 1.5s ease-out;
+}
+
+.icon-heart, .icon-cloud{
+	color: white;
+	border: solid 8px white;
+}
+
+.icon-shell, .icon-anchor{
+	color: #0e4051;
+	border: solid 8px #0e4051;
+}
+
+/*ICON ANIMATION*/
+
+@-webkit-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-webkit-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-moz-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-o-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
 }
