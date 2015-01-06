@@ -24,11 +24,6 @@ html {
 	box-sizing: inherit;
 }
 
-.lock:hover .icon-camera:before {
-    content: '\e802';
-    transition: all linear 0.25s;
-}
-
 h1{
 	font-family: 'Cedarville Cursive', cursive;
 	color: white;
@@ -46,7 +41,7 @@ h1{
 
 }
 
-.icon{
+.icons-all{
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
@@ -68,25 +63,13 @@ h1{
 
 .icon-heart, .icon-sun, .icon-camera{
 	color: white;
-	border: solid 8px #fff;
 	font-size: 4em;
-	padding: 0.645em;
-	margin: 0.3em;
-}
-
-.icon-blue:hover{
-	border: solid 8px #fff;
-	transition: all linear 0.25s;
-	-webkit-transition: all linear 0.25s;
-
-	-webkit-animation: switch 1s ease-out;
-	-moz-animation: switch 1s ease-out;
-	-o-animation: switch 1s ease-out;
-	animation: switch 1s ease-out;
+	padding: 0.6em;
+	margin: 0.5em;
 }
 
 
-/*ICON FADE ANIMATIONS*/
+/*ICON ANIMATION*/
 
 @-webkit-keyframes icon-fade {
   0%   { 
@@ -157,25 +140,6 @@ h1{
 }
 
 @keyframes icon-fade {
-  0%   { 
-  	top: 15rem; 
-  	opacity: 0;
-  }
-
-  5%   { 
-  	top: 15rem; 
-  	opacity: 0;
-  }
-
-  100% { 
-  	top: 0; 
-  	opacity: 1;
-  }
-}
-
-/*ICON SWITCH ANIMATION*/
-
-@-webkit-keyframes switch {
   0%   { 
   	top: 15rem; 
   	opacity: 0;
