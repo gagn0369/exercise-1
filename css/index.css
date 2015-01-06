@@ -36,38 +36,6 @@ h1{
 	text-align: center;
 }
 
-.icons-visible{
-	margin-top: 6em;
-
-}
-
-.icons-all{
-	display: inline-block;
-	position: relative;
-	text-decoration: none;
-
-	-webkit-animation: icon-fade 1.5s ease-out;
-	-moz-animation: icon-fade 1.5s ease-out;
-	-o-animation: icon-fade 1.5s ease-out;
-	animation: icon-fade 1.5s ease-out;
-}
-
-.icon-shell, .icon-anchor, .icon-plane{
-	color: #0e4051;
-	border: solid 8px #0e4051;
-	font-size: 5em;
-	padding: 0.4em;
-	margin: 0.2em;
-}
-
-
-.icon-heart, .icon-sun, .icon-camera{
-	color: white;
-	font-size: 4em;
-	padding: 0.6em;
-	margin: 0.5em;
-}
-
 
 /*ICON ANIMATION*/
 
