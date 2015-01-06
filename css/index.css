@@ -34,14 +34,19 @@ h1{
 .icons{
 	position: relative;
 	text-align: center;
-	margin-top: 11em;
 }
 
-.icon-all{
+.icons-visible{
+	margin-top: 6em;
+
+}
+
+.icons-all{
+	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	font-size: 4em;
-	padding: 0.5em;
+	font-size: 5em;
+	padding: 0.4em;
 	margin: 0.2em;
 
 	-webkit-animation: icon-fade 1.5s ease-out;
@@ -50,9 +55,8 @@ h1{
 	animation: icon-fade 1.5s ease-out;
 }
 
-.icon-heart, .icon-cloud{
+.icon-heart, .icon-sun, .icon-camera{
 	color: white;
-	border: solid 8px white;
 }
 
 .icon-shell, .icon-anchor, .icon-plane{
