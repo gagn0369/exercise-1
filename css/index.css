@@ -16,3 +16,9 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.icon-all{
+	text-decoration: none;
+	color: black;
+	font-size: 4em;
+}
