@@ -54,7 +54,9 @@ h1{
 	margin: 0.2em;
 }
 
-.icon-link:hover .icon-shell:before {
+.icon-link:hover .icon-shell:before, 
+.icon-link:hover .icon-anchor:before, 
+.icon-link:hover .icon-heart:before {
 
     -webkit-animation: switch 1s ease-out;
 	-moz-animation: switch 1s ease-out;
