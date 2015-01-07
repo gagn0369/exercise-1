@@ -58,10 +58,10 @@ h1{
 .icon-link:hover .icon-anchor:before, 
 .icon-link:hover .icon-heart:before {
 
-    -webkit-animation: switch 1s ease-out;
-	-moz-animation: switch 1s ease-out;
-	-o-animation: switch 1s ease-out;
-	animation: switch 1s ease-out;
+    -webkit-animation: switch 0.75s ease-out;
+	-moz-animation: switch 0.75s ease-out;
+	-o-animation: switch 0.75s ease-out;
+	animation: switch 0.75s ease-out;
 
 	transition: all linear;
 }
