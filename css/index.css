@@ -31,45 +31,48 @@ h1{
 	margin-left: 1em;
 }
 
+.all-icons{
+	margin-top: 6em;
+	position: relative;
+	text-align: center;
+}
+
 .container{
-	margin-top: 8em;
+	display: inline-block;
+	text-align: center;
+	position: relative;
 }
 
 .icon-link{
-	font-size: 5em;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	font-size: 6em;
 	color: white;
 	border: white solid 8px;
-	padding: 0.5em;
+	padding: 0.3em;
+	margin: 0.2em;
 }
-
-.icon{
-
-}
-
 
 .icon-link:hover .icon-shell:before {
-    content: '\e801';
 
-    -webkit-animation: switch 1.5s ease-out;
-	-moz-animation: switch 1.5s ease-out;
-	-o-animation: switch 1.5s ease-out;
-	animation: switch 1.5s ease-out;
+    -webkit-animation: switch 1s ease-out;
+	-moz-animation: switch 1s ease-out;
+	-o-animation: switch 1s ease-out;
+	animation: switch 1s ease-out;
 
-    transition: all linear 0.25s;
+	transition: all linear;
 }
+
 
 /*ICON ANIMATION*/
 
 
-.icon-link .icon-link:hover:before {
-	-webkit-animation: switch 0.3s forwards;
-	-moz-animation: switch 0.3s forwards;
-	animation: switch 0.3s forwards;
-}
-
 @-webkit-keyframes switch {
 	49% {
+		-webkit-transform: rotate(360deg);
 		-webkit-transform: translateY(100%);
+
 	}
 	50% {
 		opacity: 0;
@@ -77,6 +80,7 @@ h1{
 	}
 	51% {
 		opacity: 1;
+		content: '\e801';
 	}
 }
 @-moz-keyframes switch {
@@ -86,9 +90,11 @@ h1{
 	50% {
 		opacity: 0;
 		-moz-transform: translateY(-100%);
+		content: '\e801';
 	}
 	51% {
 		opacity: 1;
+		content: '\e801';
 	}
 }
 @keyframes switch {
@@ -98,8 +104,10 @@ h1{
 	50% {
 		opacity: 0;
 		transform: translateY(-100%);
+		content: '\e801';
 	}
 	51% {
 		opacity: 1;
+		content: '\e801';
 	}
 }
