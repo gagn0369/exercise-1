@@ -28,8 +28,20 @@ h1{
 	font-family: 'Cedarville Cursive', cursive;
 	color: white;
 	font-size: 2em;
-	margin-left: 1em;
+	margin-left: 1.5em;
 }
+
+h2{
+	font-family: 'Cedarville Cursive', cursive;
+	color: white;
+	font-size: 1.5em;
+	position: relative;
+
+	-webkit-animation: word-fade-1 1.5s ease-out;
+	-moz-animation: word-fade-1 1.5s ease-out;
+	-o-animation: word-fade-1 1.5s ease-out;
+	animation: word-fade-1 1.5s ease-out;
+}	
 
 .all-icons{
 	margin-top: 6em;
@@ -52,64 +64,126 @@ h1{
 	border: white solid 8px;
 	padding: 0.3em;
 	margin: 0.2em;
-}
 
-.icon-link:hover .icon-shell:before, 
-.icon-link:hover .icon-anchor:before, 
-.icon-link:hover .icon-heart:before {
-
-    -webkit-animation: switch 0.75s ease-out;
-	-moz-animation: switch 0.75s ease-out;
-	-o-animation: switch 0.75s ease-out;
-	animation: switch 0.75s ease-out;
+	-webkit-animation: icon-fade 1s ease-out;
+	-moz-animation: icon-fade 1s ease-out;
+	-o-animation: icon-fade 1s ease-out;
+	animation: icon-fade 1s ease-out;
 
 	transition: all linear;
 }
 
+.container .icon-link:hover{
+	font-size: 6.5em;
+	padding:0.21em;
+	transition: all linear;
+	background-color: rgba(118,244,232,0.25);
 
-/*ICON ANIMATION*/
-
-
-@-webkit-keyframes switch {
-	49% {
-		-webkit-transform: rotate(360deg);
-		-webkit-transform: translateY(100%);
-
-	}
-	50% {
-		opacity: 0;
-		-webkit-transform: translateY(-100%);
-	}
-	51% {
-		opacity: 1;
-		content: '\e801';
-	}
 }
-@-moz-keyframes switch {
-	49% {
-		-moz-transform: translateY(100%);
-	}
-	50% {
-		opacity: 0;
-		-moz-transform: translateY(-100%);
-		content: '\e801';
-	}
-	51% {
-		opacity: 1;
-		content: '\e801';
-	}
+
+/*H2 ANIMATION*/
+
+@-webkit-keyframes word-fade-1 {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  50%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
 }
-@keyframes switch {
-	49% {
-		transform: translateY(100%);
-	}
-	50% {
-		opacity: 0;
-		transform: translateY(-100%);
-		content: '\e801';
-	}
-	51% {
-		opacity: 1;
-		content: '\e801';
-	}
+
+
+/*ICON ANIMATION ALL*/
+
+@-webkit-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  10%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-webkit-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-moz-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-o-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
 }
