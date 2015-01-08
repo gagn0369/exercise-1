@@ -36,11 +36,30 @@ h2{
 	color: white;
 	font-size: 1.5em;
 	position: relative;
+}
+
+.word-1{
 
 	-webkit-animation: word-fade-1 1.5s ease-out;
 	-moz-animation: word-fade-1 1.5s ease-out;
 	-o-animation: word-fade-1 1.5s ease-out;
 	animation: word-fade-1 1.5s ease-out;
+}	
+
+.word-2{
+	
+	-webkit-animation: word-fade-1 1.75s ease-out;
+	-moz-animation: word-fade-1 1.75s ease-out;
+	-o-animation: word-fade-1 1.75s ease-out;
+	animation: word-fade-1 1.75s ease-out;
+}	
+
+.word-3{
+	
+	-webkit-animation: word-fade-1 2s ease-out;
+	-moz-animation: word-fade-1 2s ease-out;
+	-o-animation: word-fade-1 2s ease-out;
+	animation: word-fade-1 2s ease-out;
 }	
 
 .all-icons{
@@ -78,6 +97,12 @@ h2{
 	padding:0.21em;
 	transition: all linear;
 	background-color: rgba(118,244,232,0.25);
+
+}
+
+.container .icon-link:active{
+	top:0.1em;
+
 
 }
 
